@@ -7,3 +7,6 @@ pybase64==1.2.3
 Pillow==9.4.0
 openai==0.27.0
 markdown
+certifi>=2023.7.22 # not directly required, pinned by Snyk to avoid a vulnerability
+idna>=3.7 # not directly required, pinned by Snyk to avoid a vulnerability
+setuptools>=65.5.1 # not directly required, pinned by Snyk to avoid a vulnerability
