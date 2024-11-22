@@ -8,7 +8,7 @@ Pillow==9.4.0
 openai==0.27.0
 markdown
 jieba
-gradio==3.20.1
+gradio==5.0.0b5
 flask==2.2.3
 flask-cors==3.0.10
 bs4==0.0.1
@@ -17,3 +17,4 @@ sphinx-markdown-tables
 sphinxemoji
 recommonmark
 sphinx-book-theme
+aiohttp>=3.10.11 # not directly required, pinned by Snyk to avoid a vulnerability
